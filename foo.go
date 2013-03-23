@@ -1,3 +1,7 @@
 package foo
 
-import _ "github.com/dominikh/foo/bar"
+import "github.com/dominikh/foo/bar"
+
+func Indirection() {
+	bar.DoThings()
+}
